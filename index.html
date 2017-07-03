@@ -4,15 +4,16 @@
     <title>Shelves of Books</title>
   </head>
   <body>
-    <h2>Book Shelf Stuffing</h2>
+    <h2 align="center">Book Shelf Stuffing</h2>
     <p>Books on the shelves, books on the floor, furniture for books, where to find books, making book art, and more.</p>
 
     <p>This page is about the books that are spilling out of the shelves and taking over my home.</p>
 
     <img src="books.jpg" alt="biblio-tetris" width="60%">
-
-<fieldset>
 <p>I'm always looking for recommendations! Please share one (or more) below.</p>
+
+<form name="Book Recommendations" action="recommendations.html" method="post">
+<fieldset>
     <div>
       <label>Title</label>
       <input type="text" name="title">
@@ -27,6 +28,7 @@
       <label>Year Published</label>
       <input type="text" name="Year">
     </div>
+     <button type="submit">Submit</button>
   </fieldset>
 
   </body>
