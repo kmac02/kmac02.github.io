@@ -6,13 +6,13 @@
   </head>
   <body>
     <header>
-      <h2 align="center" class="top1">The Toppling Bookshelf</h2>
+      <h2 align="center" id="top1">The Toppling Bookshelf</h2>
       <p>Books on the shelves, books on the floor, furniture for books, where to find books, making book art, and more.</p>
     </header>
-
+<main>
     <p>This page is about the books that are spilling out of the shelves and taking over my home. Not quite <a href="http://www.huffingtonpost.com/entry/theres-a-japanese-word-for-people-who-buy-more-books-than-they-can-actually-read_us_58f79b7ae4b029063d364226"><em>tsundoku</em></a> but close.</p>
 <div>
-    <img src="books.jpg" alt="biblio-tetris" width="60%">
+    <img src="images/books.jpg" alt="biblio-tetris" width: 80%>
     <p>
 
     </p>
@@ -34,27 +34,30 @@
   <li><em>Burn For Me</em> by Ilona Andrews</li>
   <li><em>The Dragon Business</em> by Kevin J. Anderson</li>
 </ul>
-<h3>I'm always looking for recommendations! Please share one (or more!) below.</h3>
-  <form name="Book Recommendations" action="recommendations.html" method="post">
+    <div>
+      <p>I'm a fan of Science Fiction and Fantasy and one of my favorite (non-publisher) blogs is <a href="https://www.worldswithoutend.com/index.asp">Worlds Without End.</a> The site offers extensive lists including, but not limited to, book releases by year, book awards, and user/fan recommendations. There are book descriptions and reviews, but the site is best for users to track what the read and browse lists. (Similar to <a href="https//:goodreads.com">Goodreads</a> but just for SFF.) Sometimes the amount of content seems overwhelming, but I appreciate its dedication to lists over promotions or ratings.</p>
+    </div>
+</main>
+<footer>
+  <h4 class="foot-heading recs">I'm always looking for recommendations! Please share one (or more!) below.</h4>
+    <form name="Book Recommendations" action="recommendations.html" method="post">
   <fieldset>
-      <div>
+      <div class="recs">
         <label>Title</label>
         <input type="text" name="title">
       </div>
-      <div>
+      <div class="recs">
         <label>Author</label>
         <input type="text" name="Author">
       </div>
-      <div>
+      <div class="recs">
         <label>Year Published</label>
         <input type="text" name="Year">
       </div>
         <button type="submit">Submit</button>
     </fieldset>
-    <h5><a href="recommendations.html">Recommendations Page</a></h5>
-    <div>
-      <p>I'm a fan of Science Fiction and Fantasy and one of my favorite (non-publisher) blogs is <a href="https://www.worldswithoutend.com/index.asp">Worlds Without End.</a> The site offers extensive lists including, but not limited to, book releases by year, book awards, and user/fan recommendations. There are book descriptions and reviews, but the site is best for users to track what the read and browse lists. (Similar to <a href="https//:goodreads.com">Goodreads</a> but just for SFF.) Sometimes the amount of content seems overwhelming, but I appreciate its dedication to lists over promotions or ratings.</p>
-    </div>
+  <p class="recs"><a href="recommendations.html">Recommendations Page</a></p>
+</footer>
 
   </body>
 </html>

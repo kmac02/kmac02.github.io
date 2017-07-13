@@ -1,13 +1,48 @@
 header {
   margin: -10px;
-  background: url("books-fall-02.png") no-repeat center, url("header-back.jpg") no-repeat center;
+  background: url("images/books-fall-02.png") no-repeat center, url("images/header-back.jpg") no-repeat center;
   padding: 50px;
-
   background-size: 15%, cover;
   background-position: right bottom, left top;
 }
 
-.top1 {
+#top1 {
   font-family: Blippo, fantasy;
-  font-size: 500%;
+  font-size: 400%;
+}
+
+main {
+  margin-left: 10px;
+}
+
+img {
+  width: 80%;
+}
+
+footer {
+  background: url("parchment.jpg");
+  margin: 5px;
+
+}
+fieldset {
+  border: 2px solid black;
+  margin: 0px;
+}
+
+.foot-heading {
+  margin: 0px;
+}
+
+.recs {
+  font-family: Gill sans, sans-serif;
+}
+
+a:visited {
+  color: #ff975b;
+}
+
+@media screen and (max-width: 450px) {
+  main {
+    font-size: .8em;
+  }
 }
