@@ -1,0 +1,13 @@
+header {
+  margin: -10px;
+  background: url("books-fall-02.png") no-repeat center, url("header-back.jpg") no-repeat center;
+  padding: 50px;
+
+  background-size: 15%, cover;
+  background-position: right bottom, left top;
+}
+
+.top1 {
+  font-family: Blippo, fantasy;
+  font-size: 500%;
+}
