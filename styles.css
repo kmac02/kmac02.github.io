@@ -9,10 +9,17 @@ header {
 #top1 {
   font-family: Blippo, fantasy;
   font-size: 400%;
+  position: center;
+}
+
+#top2 {
+  font-family: Blippo, fantasy;
+  font-size: 100%;
 }
 
 main {
   margin-left: 10px;
+  margin-right: 20px;
 }
 
 img {
@@ -21,9 +28,10 @@ img {
 
 footer {
   background: url("parchment.jpg");
-  margin: 5px;
+  margin: 10px;
 
 }
+
 fieldset {
   border: 2px solid black;
   margin: 0px;
@@ -41,8 +49,18 @@ a:visited {
   color: #ff975b;
 }
 
+a:hover {
+  color: green;
+}
+
 @media screen and (max-width: 450px) {
   main {
     font-size: .8em;
+  }
+  #top1 {
+    font-size: 250%;
+  }
+  #top2 {
+    font-size: 80%;
   }
 }
